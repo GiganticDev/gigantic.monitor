@@ -1,0 +1,7 @@
+@ShutdownOnFailedCommand 1
+@NoPromptForPassword 1
+@sSteamCmdForcePlatformType windows
+login $STEAM_USR $STEAM_PASS
+force_install_dir ./gigantic-game
+app_update 327690 validate
+quit
